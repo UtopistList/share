@@ -1,4 +1,3 @@
-    <?php
 
 
     function line_break_shortcode() {
@@ -922,10 +921,8 @@
         }
     );
 
-
 ```
-
-    function prefix_query_args( $query_args, $grid_id ) {
+function prefix_query_args( $query_args, $grid_id ) {
 
         
         if ( 2 === $grid_id ) {
@@ -953,9 +950,7 @@
     }
 
     add_filter( 'wp_grid_builder/grid/query_args', 'prefix_query_args', 10, 2 );
-
-
-```
+            ```
 
     add_filter(
         'wp_grid_builder/grid/query_args',
