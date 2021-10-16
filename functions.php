@@ -959,15 +959,6 @@
 
     add_filter( 'wp_grid_builder/grid/query_args', 'prefix_query_args', 10, 2 );
 
-
-
-
-
-
-
-
-
-
 ```php
 
     add_filter(
@@ -999,14 +990,6 @@
 
 
 ```
-
-
-
-
-
-
-
-
 
     add_filter( 'wp_grid_builder/facet/html', function( $html, $facet_id ) {
 
